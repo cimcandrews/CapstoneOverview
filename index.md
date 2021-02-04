@@ -36,7 +36,7 @@
 
 
 
-
+<br><br>
 
 # Thursday February 4, 2021 project update status report.
 
@@ -68,8 +68,10 @@
 
 - Given a misinfo comment, predict which response is best.
 
-- Given a factual response, predict how useful is it (how likely is it to end a discussion / shut down the misinfo)
+- Given a factual response, predict how useful is it (how likely is it to end a discussion / shut down a misinfo thread)
 
 - Also generate word clouds and other data visualizations.
 
 We are still discussing with the team what would work best for them. They also have not decided exactly which pages they are going to monitor. We are beginning to collect data. For data collection, we will be manually collecting lots of samples of misinfo comments from FB and Twitter. We will also collect their responses that they have already made, which are available on some of the FB pages. 
+
+For now it looks like we will not be automatically scraping for new comments, as this is against FB terms of service. The health information response team understands this and was not surprised, so we will most likely not pursue this.
