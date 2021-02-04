@@ -2,36 +2,19 @@
 
 You can use the [editor on GitHub](https://github.com/cimcandrews/CapstoneOverview/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
-
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/cimcandrews/CapstoneOverview/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+# Summary
+  Our Capstone project is to provide a solution to help automate the monitoring of health misinformation in social media. To achieve this, we are working directly with the Journalism and Public Communications Department Chair and the Alaska Public Health Information Response Team to build a web-application that suits their needs.
+  To accomplish this, we are building the web-application to pull comments from several predefined Facebook pages, that users can flag as misinformation that needs to be addressed.
+  
+  ## Basic To-Do
+  
+  - [ ] ~~Use GitHub Pages to host our web-app.~~
+  - [x] Look into the Facebook Graph API for pulling comments from pages.
+  - [ ] Learn more about the terms of service and policies Facebook has in place for their data.
+  - [x] Build app using Flask instead of HTML and JavaScript (Therefore, unable to use GitHub Pages to host our web-app).
+  - [x] Implement Python libraries instead of FB Graph API to pull comments from public Facebook Pages.
+  - [ ] Work on implementing a system for the Chair of the Journalism and Public Communications Department to easily receive flagged comments to submit to the Information Response Team.
+  
+  ## Advanced To-Do
+  - [ ] Visualize characteristics of misinformation behavior (probably using matplotlib and Python).
+  - [ ] Implement some sort of ML model that can weigh how likely a comment is misinformation or not.
