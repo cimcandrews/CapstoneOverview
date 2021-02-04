@@ -13,7 +13,9 @@ You can use the [editor on GitHub](https://github.com/cimcandrews/CapstoneOvervi
   - [ ] Learn more about the terms of service and policies Facebook has in place for their data.
   - [x] Build app using Flask instead of HTML and JavaScript (Therefore, unable to use GitHub Pages to host our web-app).
   - [x] Implement Python libraries instead of FB Graph API to pull comments from public Facebook Pages.
+  - [x] Build a simple website for Capstone class progress reports and presentations.
   - [ ] Work on implementing a system for the Chair of the Journalism and Public Communications Department to easily receive flagged comments to submit to the Information Response Team.
+  - [ ] Migrate application to external server as a long-term usage goal.
   
   ## Advanced To-Do
   - [ ] Visualize characteristics of misinformation behavior (probably using matplotlib and Python).
