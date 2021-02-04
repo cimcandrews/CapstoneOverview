@@ -1,4 +1,6 @@
 ## Welcome to our Capstone Project
+### Ty Bergstrom
+### Ian McAndrews
 
 You can use the [editor on GitHub](https://github.com/cimcandrews/CapstoneOverview/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
 
