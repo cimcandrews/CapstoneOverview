@@ -1,8 +1,8 @@
 ## Welcome to our Capstone Project
-### Ty Bergstrom
-### Ian McAndrews
+** Ty Bergstrom **
+** Ian McAndrews **
 
-You can use the [editor on GitHub](https://github.com/cimcandrews/CapstoneOverview/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+---
 
 # Summary
   Our Capstone project is to provide a solution to help automate the monitoring of health misinformation in social media. To achieve this, we are working directly with the Journalism and Public Communications Department Chair and the Alaska Public Health Information Response Team to build a web-application that suits their needs.
