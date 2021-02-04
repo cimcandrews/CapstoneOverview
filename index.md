@@ -42,21 +42,23 @@
 
 # We have built a web app:
 
-## Users are able to create accounts, log in, log out, etc.
-
 ![Image](https://blog.corp-site.envato.com/cdn-cgi/image/width=820,quality=85,format=auto/uploads/2020/03/giphy-5.gif)
 
-# The users (the journalism students) who monitor FB pages for misinformation are able to submit new misinformation comments:
+## Users are able to create accounts, log in, log out, etc.
 
 ![Image](https://media1.giphy.com/media/26uf9Q4RRbWl5DA88/giphy.gif)
 
+# The users (the journalism students) who monitor FB pages for misinformation are able to submit new misinformation comments:
+
+![Image](https://raw.githubusercontent.com/cimcandrews/CapstoneOverview/gh-pages/assets/mm0.png)
+
 # The admin users (the health professionals) will get automatic email notifications when a new comment is submitted, with the link to the comment included in the email:
 
-![Image](https://media.tenor.com/images/4f5efc85854259b4f569ddefc474a633/tenor.gif)
+![Image](https://raw.githubusercontent.com/cimcandrews/CapstoneOverview/gh-pages/assets/mm1.png)
 
 # Users are also able to view the newly submitted comments. These new comments can be manually deleted after someone has responded to them:
 
-![Image](https://media.tenor.com/images/4f5efc85854259b4f569ddefc474a633/tenor.gif)
+![Image](https://raw.githubusercontent.com/cimcandrews/CapstoneOverview/gh-pages/assets/mm2.png)
 
 # Next steps
 
