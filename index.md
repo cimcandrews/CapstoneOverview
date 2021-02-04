@@ -8,7 +8,7 @@ You can use the [editor on GitHub](https://github.com/cimcandrews/CapstoneOvervi
   Our Capstone project is to provide a solution to help automate the monitoring of health misinformation in social media. To achieve this, we are working directly with the Journalism and Public Communications Department Chair and the Alaska Public Health Information Response Team to build a web-application that suits their needs.
   To accomplish this, we are building the web-application to pull comments from several predefined Facebook pages, that users can flag as misinformation that needs to be addressed.
   
-  ## Basic To-Do
+## Basic To-Do
   
   - [ ] ~~Use GitHub Pages to host our web-app.~~
   - [x] Look into the Facebook Graph API for pulling comments from pages.
@@ -19,6 +19,6 @@ You can use the [editor on GitHub](https://github.com/cimcandrews/CapstoneOvervi
   - [ ] Work on implementing a system for the Chair of the Journalism and Public Communications Department to easily receive flagged comments to submit to the Information Response Team.
   - [ ] Migrate application to external server as a long-term usage goal.
   
-  ## Advanced To-Do
+## Advanced To-Do
   - [ ] Visualize characteristics of misinformation behavior (probably using matplotlib and Python).
   - [ ] Implement some sort of ML model that can weigh how likely a comment is misinformation or not.
