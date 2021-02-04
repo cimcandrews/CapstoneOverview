@@ -1,5 +1,7 @@
 ## Welcome to our Capstone Project
+
 ** Ty Bergstrom **
+
 ** Ian McAndrews **
 
 ---
