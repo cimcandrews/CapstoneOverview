@@ -35,6 +35,87 @@
 
 
 
+<br><br>
+
+# Tues. Feb. 9 and Thurs. Feb. 11 project update status report.
+
+Updates to the app include:
+
+- Admin account is able to invite new users to register an account.
+
+  - Otherwise it is not possible to register - you can only register via invite.
+  
+  - And of course the invite emails are set up and it works.
+
+- Need to be logged in to submit comments, view comments, etc.
+
+- Email notifications can be turned on/off.
+
+  - So only the researchers get notifications for new comments.
+  
+  - And the Journalism students won't get emails.
+  
+  - The Admin account sets this when they invite a new user.
+  
+  - But users can still change the setting if they need to.
+
+- NLP and Data...
+
+  - Finally got access to their data, the previously submitted misinfo comments.
+  
+  - Started collecting the data, not finished. Collecting:
+  
+    - Misinformation comments.
+    
+    - Good responses to misinfo.
+    
+    - Bad responses to misinfo.
+  
+  - Started processing some of the data to se what we can do with it. So far, it looks like we can generate word clouds,
+  extract Ngrams, extract URL links, and create visual displays.
+  
+  - Added webpages to display some of the data so far, to see what it looks like, to get feedback on what would be good
+
+<br>
+
+![Image](https://raw.githubusercontent.com/cimcandrews/CapstoneOverview/gh-pages/assets/ng.png)
+
+<br>
+
+![Image](https://raw.githubusercontent.com/cimcandrews/CapstoneOverview/gh-pages/assets/wc0.png)
+
+<br>
+
+![Image](https://raw.githubusercontent.com/cimcandrews/CapstoneOverview/gh-pages/assets/wc1.png)
+
+<br>
+
+![Image](https://raw.githubusercontent.com/cimcandrews/CapstoneOverview/gh-pages/assets/wc2.png)
+
+<br>
+
+![Image](https://raw.githubusercontent.com/cimcandrews/CapstoneOverview/gh-pages/assets/wc3.png)
+
+<br><br>
+
+Up next:
+
+  - Keep collecting more data
+  
+  - Keep processing more data
+  
+  - It sounds like they want to automate the "vetting"
+  
+    - Currently, when someone submits a misinfo comment, they manually "vet" it to make sure it is misinfo before
+    sending off the notifications.
+    
+    - So we can work on training models to predict:
+    
+      - Given a comment, how likely is it a misinformation comment
+    
+
+
+
 
 <br><br>
 
