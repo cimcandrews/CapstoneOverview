@@ -57,8 +57,8 @@ Most of the user functionality is stable. This includes user account stuff (secu
 Machine Learning and Natural Language Processing Tasks:
 
 	Collect more data.
-  
- 	Build a classifier to predict: Given a submitted comment, how likely is it misinfo.
+
+	Build a classifier to predict: Given a submitted comment, how likely is it misinfo.
 
 		Implement the misinfo classifier on submitted comments, include prediction in the automatic email template.
 
@@ -87,8 +87,8 @@ Machine Learning and Natural Language Processing Tasks:
 		based on post title?
 
 		based on linked article title and content?
-    
-    based on keywords or topics (mask, vaccine, etc)
+
+		based on keywords or topics (mask, vaccine, etc)
 
 	what types of good responses are more associated with increased positive engagement
 
@@ -109,7 +109,7 @@ Machine Learning and Natural Language Processing Tasks:
 
 These are some of the things that the Response Team has mentioned that might help them, and we would like to do as much of these as we can
 
-We will be very busy collecting data, processing data, building models, generating visualizations, and integrating it all into the app. Should be fun!
+We will be very busy collecting data, processing data, building models, generating visualizations, and integrating it all into the app.
 
 
 
