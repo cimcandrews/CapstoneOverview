@@ -56,60 +56,46 @@ Most of the user functionality is stable. This includes user account stuff (secu
 
 Machine Learning and Natural Language Processing Tasks:
 
-	Collect more data.
+- Collect more data.
 
-	Build a classifier to predict: Given a submitted comment, how likely is it misinfo.
+- Build a classifier to predict: Given a submitted comment, how likely is it misinfo.
 
-		Implement the misinfo classifier on submitted comments, include prediction in the automatic email template.
+	- Implement the misinfo classifier on submitted comments, include prediction in the automatic email template.
 
-	Generate WordClouds:
+- Generate WordClouds:
 
-		For misinfo comments.
+	- For misinfo comments, For good responses.
 
-		For good responses.
+	- For date ranges: All time, This month, Last month, etc.
 
-		For date ranges:
+- Build a trending topics model using LDA: Generate the trending topics for:
 
-			All time, This month, Last month, etc.
+	- misinfo comments, for date ranges
 
-	Build a trending topics model using LDA
+- Sentiment analysis visuals: Track sentiment analysis over time
 
-		Generate the trending topics for:
+	- for misinfo comments, for date ranges
 
-			misinfo comments, for date ranges
+- What types of posts are more likely to generate more misinfo comments
 
-	Sentiment analysis visuals: Track sentiment analysis over time
+	- based on post title? based on linked article title and content? based on keywords or topics (mask, vaccine, etc)
 
-		for misinfo comments, for date ranges
+- what types of good responses are more associated with increased positive engagement
 
-	What types of posts are more likely to generate more misinfo comments
+	- positive engagement = "Likes" and other positive affirmations
 
-		based on post title?
+	- types of responses could be considered classes:
 
-		based on linked article title and content?
+		- has links to articles, has humor, has a certain GIF, has other image
 
-		based on keywords or topics (mask, vaccine, etc)
+- When are good responses most effective:
 
-	what types of good responses are more associated with increased positive engagement
-
-		positive engagement = "Likes" and other positive affirmations
-
-		types of responses could be considered classes:
-
-			has links to articles, has humor, has a certain GIF, has other image
-
-	When are good responses most effective:
-
-		up to 6 hours after the misinfo comment was posted
-
-		within 24 hours
-
-		after 24 hours
+	- up to 6 hours after the misinfo comment was posted, within 24 hours, after 24 hours
 
 
-These are some of the things that the Response Team has mentioned that might help them, and we would like to do as much of these as we can
+These are some of the things that the Response Team has mentioned that might help them, and we would like to do as much of these as we can. 
 
-We will be very busy collecting data, processing data, building models, generating visualizations, and integrating it all into the app.
+We will be very busy collecting data, processing data, building models, generating visualizations, and integrating it all into the app and making it easy for the team to view the data.
 
 
 
