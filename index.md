@@ -1,8 +1,8 @@
 ## Welcome to our Capstone Project
 
-** Ty Bergstrom **
+Ty Bergstrom
 
-** Ian McAndrews **
+Ian McAndrews
 
 ---
 
@@ -13,31 +13,95 @@
 ---
 
 
-# Summary
-  Our Capstone project is to provide a solution to help automate the monitoring of health misinformation in social media. To achieve this, we are working directly with the Journalism and Public Communications Department Chair and the Alaska Public Health Information Response Team to build a web-application that suits their needs.
-  To accomplish this, we are building the web-application to pull comments from several predefined Facebook pages, that users can flag as misinformation that needs to be addressed.
+## Overview
+
+Our proposed project is to provide a solution to help automate monitoring health misinformation in social media, and to help provide tools to process and understand the misinformation data and the responses to misinformation. We will work directly with the Journalism and Public Communications Department Chair and the Alaska Public Health Information Response Team to provide a solution to suit their needs.
+
+We were considereing scraping the Facebook pages for new comments, but there is no way to do that without violating FB terms of service. 
+
+We are considering developing a web application to help make the monitoring, notifying, and responding process more smooth. Our application lets users submit new misinformation comments, and the health team automatically receives email notifications when new comments are submitted, which is one way to make the process smoother. (Furthermore, the team can easily add new responders to the email list - new responders will not have to download anything or sign-up in order to start getting notifications.) 
+
+Additionally, we are considering using Machine Learning and Natural Language Processing to help automate certain tasks and to help analyze the misinformation and to help inform the team what makes a good response. We are considering using the web application for processing and presenting data, including WordClouds, diagrams, and other visualizations. 
+
+## Read about the Information Response Team here!
+
+They were featured in the Anchorage Daily News this week.
+
+[https://www.adn.com/alaska-news/2021/02/10/alaska-public-health-experts-are-taking-the-fight-against-covid-19-misinformation-to-facebook-comment-threads/](https://www.adn.com/alaska-news/2021/02/10/alaska-public-health-experts-are-taking-the-fight-against-covid-19-misinformation-to-facebook-comment-threads/)
   
 ## Basic To-Do
   
-  - [ ] ~~Use GitHub Pages to host our web-app.~~
-  - [x] Look into the Facebook Graph API for pulling comments from pages.
-  - [ ] Learn more about the terms of service and policies Facebook has in place for their data.
-  - [x] Build app using Flask instead of HTML and JavaScript (Therefore, unable to use GitHub Pages to host our web-app).
-  - [x] Implement Python libraries instead of FB Graph API to pull comments from public Facebook Pages.
-  - [x] Build a simple website for Capstone class progress reports and presentations.
-  - [ ] Work on implementing a system for the Chair of the Journalism and Public Communications Department to easily receive flagged comments to submit to the Information Response Team.
-  - [ ] Migrate application to external server as a long-term usage goal.
-  
-## Advanced To-Do
-  - [ ] Visualize characteristics of misinformation behavior (probably using matplotlib and Python).
-  - [ ] Implement some sort of ML model that can weigh how likely a comment is misinformation or not.
+  - [x] ~~Look into the Facebook Graph API for pulling comments from pages.
+  - [x] ~~Learn more about the terms of service and policies Facebook has in place for their data.
+  - [x] Build an app with Flask with basic user functionality.
+  - [x] ~~Implement Python libraries instead of FB Graph API to pull comments from public Facebook Pages.
+  - [x] Build a simple website for Capstone class progress reports and presentations (this current page right here).
+  - [ ] Create a separate page for the final "poster" presentation, full of screen shots and other visuals, and "tell the story."
+  - [x] Work on implementing a system to easily submit and receive flagged comments and notify the Response Team.
 
+## Advanced To-Do
+
+  - [ ] Visualize characteristics of misinformation behavior and good responses, with ML and NLP.
+  - [ ] Implement a model to predict how likely a comment is misinformation or not.
+  - [ ] Migrate application to external server for long-term deployment.
+
+
+<br><br>
+
+### Tues. Feb. 16 and Thurs. Feb. 18 project update status report.
+
+Still working on the app, updating it, and testing it.
+
+Most of the user functionality is stable. This includes user account stuff (securely invite new users, access permissions, login/logout, etc), submitting comments, receiving email notifications for new comments, changing email notification setting, etc. We are now mostly working on integrating ML and NLP data processing and visualizatinos to the app.
+
+Machine Learning and Natural Language Processing Tasks:
+
+- Collect more data.
+
+- Build a classifier to predict: Given a submitted comment, how likely is it misinfo.
+
+	- Implement the misinfo classifier on submitted comments, include prediction in the automatic email template.
+
+- Generate WordClouds:
+
+	- For misinfo comments, For good responses.
+
+	- For date ranges: All time, This month, Last month, etc.
+
+- Build a trending topics model using LDA: Generate the trending topics for:
+
+	- misinfo comments, for date ranges
+
+- Sentiment analysis visuals: Track sentiment analysis over time
+
+	- for misinfo comments, for date ranges
+
+- What types of posts are more likely to generate more misinfo comments
+
+	- based on post title? based on linked article title and content? based on keywords or topics (mask, vaccine, etc)
+
+- what types of good responses are more associated with increased positive engagement
+
+	- positive engagement = "Likes" and other positive affirmations
+
+	- types of responses could be considered classes:
+
+		- has links to articles, has humor, has a certain GIF, has other image
+
+- When are good responses most effective:
+
+	- up to 6 hours after the misinfo comment was posted, within 24 hours, after 24 hours
+
+
+These are some of the things that the Response Team has mentioned that might help them, and we would like to do as much of these as we can. 
+
+We will be very busy collecting data, processing data, building models, generating visualizations, and integrating it all into the app and making it easy for the team to view the data.
 
 
 
 <br><br>
 
-# Tues. Feb. 9 and Thurs. Feb. 11 project update status report.
+### Tues. Feb. 9 and Thurs. Feb. 11 project update status report.
 
 Updates to the app include:
 
@@ -104,9 +168,9 @@ Up next:
   
   - Keep processing more data
   
-  - It sounds like they want to automate the "vetting"
+  - We are considering how to automate the "vetting"
   
-    - Currently, when someone submits a misinfo comment, they manually "vet" it to make sure it is misinfo before
+    - Currently, when someone submits a misinfo comment, it manually "vetted" to make sure it is misinfo before
     sending off the notifications.
     
     - So we can work on training models to predict:
@@ -119,33 +183,33 @@ Up next:
 
 <br><br>
 
-# Thursday February 4, 2021 project update status report.
+### Thursday February 4, 2021 project update status report.
 
-# We have built a web app:
+We have built a web app:
 
 ![Image](https://blog.corp-site.envato.com/cdn-cgi/image/width=820,quality=85,format=auto/uploads/2020/03/giphy-5.gif)
 
-## Users are able to create accounts, log in, log out, etc.
+Users are able to create accounts, log in, log out, etc.
 
 ![Image](https://media1.giphy.com/media/26uf9Q4RRbWl5DA88/giphy.gif)
 
-# The users (the journalism students) who monitor FB pages for misinformation are able to submit new misinformation comments:
+The users (the journalism students) who monitor FB pages for misinformation are able to submit new misinformation comments:
 
 ![Image](https://raw.githubusercontent.com/cimcandrews/CapstoneOverview/gh-pages/assets/mm0.png)
 
-# The admin users (the health professionals) will get automatic email notifications when a new comment is submitted, with the link to the comment included in the email:
+The response team will get automatic email notifications when a new comment is submitted, with the link to the comment included in the email:
 
 ![Image](https://raw.githubusercontent.com/cimcandrews/CapstoneOverview/gh-pages/assets/mm1.png)
 
-# Users are also able to view the newly submitted comments. These new comments can be manually deleted after someone has responded to them:
+Users are also able to view the newly submitted comments (with links). These new comments can be manually deleted after someone has responded to them, or they can be left for reference:
 
 ![Image](https://raw.githubusercontent.com/cimcandrews/CapstoneOverview/gh-pages/assets/mm2.png)
 
-# Next steps
+Next steps
 
-## We are meeting with the health information response team again to discuss their needs for ML and NLP.
+We are meeting with the health information response team again to discuss their needs for ML and NLP.
 
-## We are thinking of training models to:
+We are thinking of training models to:
 
 - Given a misinfo comment, predict which response is best.
 
