@@ -1,3 +1,8 @@
+---
+layout: default
+---
+
+
 ## Welcome to our Capstone Project
 
 Ty Bergstrom
