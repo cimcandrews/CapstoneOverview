@@ -25,7 +25,7 @@ Additionally, we are considering using Machine Learning and Natural Language Pro
 
 ## Read about the Information Response Team here!
 
-They were featured in the Anchorage Daily News this week.
+They were featured in the Anchorage Daily News.
 
 [https://www.adn.com/alaska-news/2021/02/10/alaska-public-health-experts-are-taking-the-fight-against-covid-19-misinformation-to-facebook-comment-threads/](https://www.adn.com/alaska-news/2021/02/10/alaska-public-health-experts-are-taking-the-fight-against-covid-19-misinformation-to-facebook-comment-threads/)
   
@@ -44,6 +44,66 @@ They were featured in the Anchorage Daily News this week.
   - [ ] Visualize characteristics of misinformation behavior and good responses, with ML and NLP.
   - [ ] Implement a model to predict how likely a comment is misinformation or not.
   - [ ] Migrate application to external server for long-term deployment.
+
+
+
+<br><br>
+
+### Tues. Feb. 23 and Thurs. Feb. 25 project update status report.
+
+
+- Most of the data has been collected!
+
+- Still working on misinfo classifiers! Likely will need to augment the dataset with other datasets.
+
+# - Setting up the data visualizations with the application!!
+
+<br>
+
+![Image](https://raw.githubusercontent.com/cimcandrews/CapstoneOverview/gh-pages/assets/data_exp.png)
+
+<br>
+
+# - Setting up data visualiziations for selected date ranges!!
+
+<br>
+
+![Image](https://raw.githubusercontent.com/cimcandrews/CapstoneOverview/gh-pages/assets/date_range0.png)
+
+<br>
+
+![Image](https://raw.githubusercontent.com/cimcandrews/CapstoneOverview/gh-pages/assets/date_range1.png)
+
+<br>
+
+# - Setting up trending topics visualizations with Latent Dirichlet Allocation models!!
+
+<br>
+
+![Image](https://raw.githubusercontent.com/cimcandrews/CapstoneOverview/gh-pages/assets/LDA.png)
+
+<br>
+
+# - Also looking at other visualizations, such as most frequent words:
+
+<br>
+
+![Image](https://raw.githubusercontent.com/cimcandrews/CapstoneOverview/gh-pages/assets/10words.png)
+
+<br>
+
+# - Also providing other analysis, such as looking at the number of misinfo comments and responses per day:
+
+<br>
+
+![Image](https://raw.githubusercontent.com/cimcandrews/CapstoneOverview/gh-pages/assets/comments_per_day1.png)
+
+<br>
+
+![Image](https://raw.githubusercontent.com/cimcandrews/CapstoneOverview/gh-pages/assets/comments_per_day0.png)
+
+<br>
+
 
 
 <br><br>
