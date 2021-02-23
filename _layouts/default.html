@@ -7,20 +7,19 @@
     <meta charset='utf-8'>
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
 
 
-
-
-<style type="text/css">
-body {cursor: url(http://www.rw-designer.com/cursor-extern.php?id=132621);}
-</style>
+	<style type="text/css">
+	  body {
+		cursor: url(http://www.rw-designer.com/cursor-extern.php?id=132621), auto;
+	  }
+	</style>
 
 
 {% seo %}
   </head>
-
   <body>
-
     <header>
       <div class="container">
         <a id="a-title" href="{{ '/' | relative_url }}">
@@ -67,7 +66,7 @@ body {cursor: url(http://www.rw-designer.com/cursor-extern.php?id=132621);}
 
   <body>
 
-{{ content }}
+	{{ content }}
 
   </body>
 
@@ -76,7 +75,7 @@ body {cursor: url(http://www.rw-designer.com/cursor-extern.php?id=132621);}
 <script>
 
 var colour="random"; // "random" can be replaced with any valid colour ie: "red"...
-var sparkles=128;// increase of decrease for number of sparkles falling
+var sparkles=175;// increase of decrease for number of sparkles falling
 
 var x=ox=400;
 var y=oy=300;
