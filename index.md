@@ -1,6 +1,5 @@
 ---
 layout: default
-theme: jekyll-theme-hacker
 ---
 
 
@@ -86,7 +85,11 @@ They were featured in the Anchorage Daily News.
 
 <br>
 
-![Image](https://raw.githubusercontent.com/cimcandrews/CapstoneOverview/gh-pages/assets/LDA.png)
+![Image](https://raw.githubusercontent.com/cimcandrews/CapstoneOverview/gh-pages/assets/LDA0.png)
+
+<br>
+
+![Image](https://raw.githubusercontent.com/cimcandrews/CapstoneOverview/gh-pages/assets/LDA1.png)
 
 <br>
 
