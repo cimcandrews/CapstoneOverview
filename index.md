@@ -93,11 +93,15 @@ They were featured in the Anchorage Daily News.
 
 <br>
 
-# - Also looking at other visualizations, such as most frequent words:
+# - Also thinking of other visualizations, such as most frequent words:
 
 <br>
 
-![Image](https://raw.githubusercontent.com/cimcandrews/CapstoneOverview/gh-pages/assets/10words.png)
+![Image](https://raw.githubusercontent.com/cimcandrews/CapstoneOverview/gh-pages/assets/freqwords0.png)
+
+<br>
+
+![Image](https://raw.githubusercontent.com/cimcandrews/CapstoneOverview/gh-pages/assets/freqwords1.png)
 
 <br>
 
