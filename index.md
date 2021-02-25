@@ -117,7 +117,9 @@ They were featured in the Anchorage Daily News.
 
 <br>
 
+![Image](https://raw.githubusercontent.com/cimcandrews/CapstoneOverview/gh-pages/assets/comments_per_day2.png)
 
+<br>
 
 <br><br>
 
