@@ -2,7 +2,6 @@
 layout: default
 ---
 
-
 ## Welcome to our Capstone Project
 
 Ty Bergstrom
@@ -10,13 +9,6 @@ Ty Bergstrom
 Ian McAndrews
 
 ---
-
-![Image](https://stryvemarketing.com/wp-content/uploads/2016/04/welcome.gif)
-
-![Image](https://stryvemarketing.com/wp-content/uploads/2016/04/image.gif)
-
----
-
 
 ## Overview
 
@@ -50,6 +42,32 @@ They were featured in the Anchorage Daily News.
   - [ ] Implement a model to predict how likely a comment is misinformation or not.
   - [ ] Migrate application to external server for long-term deployment.
 
+
+
+
+<br><br>
+
+### Tues. Feb. 23 and Thurs. Feb. 25 project update status report.
+
+- Started collecting new data.
+
+- Working on migrating application to a production server.
+
+- Updating email server.
+
+- Lots of testing and refactoring.
+
+- Still working on other ML and NLP projects and other data visualizations.
+
+# - Sentiment analysis!!
+
+![Image](https://raw.githubusercontent.com/cimcandrews/CapstoneOverview/gh-pages/assets/sa0.png)
+
+<br>
+
+![Image](https://raw.githubusercontent.com/cimcandrews/CapstoneOverview/gh-pages/assets/sa1.png)
+
+<br>
 
 
 <br><br>
