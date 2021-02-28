@@ -69,6 +69,12 @@ They were featured in the Anchorage Daily News.
 
 <br>
 
+# - Still working on extracting bigrams and longer phrases
+
+![Image](https://raw.githubusercontent.com/cimcandrews/CapstoneOverview/gh-pages/assets/bg.png)
+
+<br>
+
 
 <br><br>
 
