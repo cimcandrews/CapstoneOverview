@@ -75,6 +75,31 @@ They were featured in the Anchorage Daily News.
 
 <br>
 
+# - Tracking word usage!!
+
+![Image](https://raw.githubusercontent.com/cimcandrews/CapstoneOverview/gh-pages/assets/trackwords0.png)
+
+<br>
+
+![Image](https://raw.githubusercontent.com/cimcandrews/CapstoneOverview/gh-pages/assets/trackwords1.png)
+
+<br>
+
+![Image](https://raw.githubusercontent.com/cimcandrews/CapstoneOverview/gh-pages/assets/trackwords2.png)
+
+<br>
+
+![Image](https://raw.githubusercontent.com/cimcandrews/CapstoneOverview/gh-pages/assets/trackwords3.png)
+
+<br>
+
+![Image](https://raw.githubusercontent.com/cimcandrews/CapstoneOverview/gh-pages/assets/trackwords4.png)
+
+<br>
+
+![Image](https://raw.githubusercontent.com/cimcandrews/CapstoneOverview/gh-pages/assets/trackwords5.png)
+
+<br>
 
 <br><br>
 
