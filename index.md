@@ -47,7 +47,7 @@ They were featured in the Anchorage Daily News.
 
 <br><br>
 
-### Tues. Feb. 23 and Thurs. Feb. 25 project update status report.
+### Tues. March 2 and Thurs. March 4 project update status report.
 
 - Started collecting new data.
 
