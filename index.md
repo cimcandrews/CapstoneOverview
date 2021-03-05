@@ -25,22 +25,62 @@ Additionally, we are considering using Machine Learning and Natural Language Pro
 They were featured in the Anchorage Daily News.
 
 [https://www.adn.com/alaska-news/2021/02/10/alaska-public-health-experts-are-taking-the-fight-against-covid-19-misinformation-to-facebook-comment-threads/](https://www.adn.com/alaska-news/2021/02/10/alaska-public-health-experts-are-taking-the-fight-against-covid-19-misinformation-to-facebook-comment-threads/)
-  
+
 ## Basic To-Do
-  
-  - [x] ~~Look into the Facebook Graph API for pulling comments from pages.
-  - [x] ~~Learn more about the terms of service and policies Facebook has in place for their data.
-  - [x] Build an app with Flask with basic user functionality.
-  - [x] ~~Implement Python libraries instead of FB Graph API to pull comments from public Facebook Pages.
-  - [x] Build a simple website for Capstone class progress reports and presentations (this current page right here).
-  - [ ] Create a separate page for the final "poster" presentation, full of screen shots and other visuals, and "tell the story."
-  - [x] Work on implementing a system to easily submit and receive flagged comments and notify the Response Team.
+
+  - [x] Research Facebook Graph API for scraping comments from pages.
+  - [x] Research Facebook terms of service and policies for their data.
+  - [x] Abandon all ideas of scraping anything from Facebook.
+  - [x] Develop an app with basic user functionality.
+  - [x] Create a simple website for Capstone class progress reports and presentations (this page).
+  - [ ] Create a separate page for the final "poster" presentation.
 
 ## Advanced To-Do
 
-  - [ ] Visualize characteristics of misinformation behavior and good responses, with ML and NLP.
-  - [ ] Implement a model to predict how likely a comment is misinformation or not.
-  - [ ] Migrate application to external server for long-term deployment.
+  - [x] Implement a system to submit misinfo comments and notify the Response Team.
+  - [ ] Collect data (the misinfo comments and responses).
+  - [ ] Create data visualizations of the misinfo data.
+  - [ ] Do Machine Learning and Natural Language Processing projects to help understand the misinfo.
+  - [ ] Integrate the ML projects into the app - use the app as an interface for the ML tools and visualizations.
+  - [ ] Implement a model to predict how likely a comment is misinfo or not - a misinfo classifier.
+  - [ ] Migrate application to an external server for long-term deployment.
+
+
+
+
+
+
+<br><br>
+
+### Week of Tuesday March 16 and Thursday March 18 project update status report
+
+- TBA...
+
+- TBA...
+
+- TBA...
+
+# - Tracking sentiment analysis - for comments containing a keyword
+
+For example, to help understand 'what is the +/- sentiment towards vaccines or masks in the misinfo comments'
+
+![Image](https://raw.githubusercontent.com/cimcandrews/CapstoneOverview/gh-pages/assets/trackwordsent0.png)
+
+<br>
+
+![Image](https://raw.githubusercontent.com/cimcandrews/CapstoneOverview/gh-pages/assets/trackwordsent4.png)
+
+<br>
+
+![Image](https://raw.githubusercontent.com/cimcandrews/CapstoneOverview/gh-pages/assets/trackwordsent2.png)
+
+... We already know there are lots of negative comments overall, but it looks like there is more negativity concentrated in comments containing the word "flu" ... it seems like this might be informative...
+
+<br>
+
+![Image](https://raw.githubusercontent.com/cimcandrews/CapstoneOverview/gh-pages/assets/trackwordsent3.png)
+
+<br>
 
 
 
