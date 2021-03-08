@@ -44,6 +44,7 @@ They were featured in the Anchorage Daily News.
   - [ ] Integrate the ML projects into the app - use the app as an interface for the ML tools and visualizations.
   - [ ] Implement a model to predict how likely a comment is misinfo or not - a misinfo classifier.
   - [ ] Migrate application to an external server for long-term deployment.
+  - [ ] Test the application thoroughly.
 
 
 
@@ -81,6 +82,59 @@ For example, to help understand 'what is the +/- sentiment towards vaccines or m
 ![Image](https://raw.githubusercontent.com/cimcandrews/CapstoneOverview/gh-pages/assets/trackwordsent3.png)
 
 <br>
+
+# - Text processing
+
+Did some more work on processing input.
+
+![Image](https://raw.githubusercontent.com/cimcandrews/CapstoneOverview/gh-pages/assets/submitcomment.png)
+
+<br>
+
+When users input the link to a facebook comment, we process it to make sure it's the right link to a comment.
+
+Also, when you copy a link to a comment, the facebook links are full of garbage, so we process all links down to only what is necessary.
+
+Therefore, it's easier for users to input the links, and the response team will always get accurate links to comments.
+
+For example, users can just copy and paste the link:
+
+- https://www.facebook.com/alaska.dhss/posts/10158906939714929?comment_id=10158907457684929&reply_comment_id=10158909556429929&__cft__[0]=AZUaNwRFn2ZMih1i8ezszTzrs9HovZSb6FSfUJZSer1B_Jl2GCHg29BJXfiQQ2RB6TIRYf_r7RPdjm4n6wUV6vsnyl9_jOsDk3odnJJLSWIbpSSHn_MM69TJ6oXewHspPhqGHgY1oq599houY3wybuH-&__tn__=R]-R
+
+And we make sure it gets processed down to:
+
+- https://www.facebook.com/alaska.dhss/posts/10158906939714929?comment_id=10158907457684929
+
+And now all of the links to comments in our database are standardized like this.
+
+We made sure to test this with all types of valid comments, including replies to video streams.
+
+We also did some more processing for links found in comments. It makes sense to just pre-process all links in the input comments, because this is the data that goes into the WordClouds and sentiment analysis and everything else, so now that will be easier to work with.
+
+For example, sometimes a misinformation comment is just a link (usually to a non-reputable biased source), for example:
+
+![Image](https://raw.githubusercontent.com/cimcandrews/CapstoneOverview/gh-pages/assets/commentlink.png)
+
+<br>
+
+If you copy and past this link:
+
+- https://www.infowars.com/.../seniors-who-already-beat.../
+
+it's better if we just parse it now, and not have the garbage in our dataset.
+
+Additionally, if you copy this link directly from facebook, you get this:
+
+- https://l.facebook.com/l.php?u=https%3A%2F%2Fwww.infowars.com%2Fposts%2Fseniors-who-already-beat-covid-19-are-dying-after-taking-the-vaccine%2F%3Ffbclid%3DIwAR3EPFP8hBwSbg4K0MrH-WIhh3DGMp4mcTvk8egsrMkNKtILKL6JXhfiXmY&h=AT3uDyp77_LFERjJlsedWCWOF8uCdGvQdOLzmEXgrXQaBh8P9VxZpejdXUXLCHpquqEyEpUexB2rHMDkfwpEzc6ewSNfaO2E0ZaP9GPyGu1BlbEMrIzszBa2cOvY&__tn__=R]-R&c[0]=AT3tBwZC2jtGnStLhYcdUhzVzvu_ryImz1q15CgpGYYbvt7rD5EGcAWDhbCXI6FAawI6lOuw9gNlLBMivhiEgTJPTU4cYZbYWMJTRhfqX1mxY8VaI6sahGyK3bplb-WaHaVz9V7meAYpmmFcV7Me8IKh-jc1HZ1rpez7I2cCqx_qmgDv
+
+This is obviously even worse garbage, so we make sure that whatever our users copy and paste and submit, we parse it all down to:
+
+- infowars.com
+
+So now we have better data in our database, less garbage, and processing will be smoother later in the machine learning pipeline. 
+
+
+
 
 
 
