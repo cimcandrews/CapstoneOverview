@@ -103,7 +103,7 @@ For example, users can just copy and paste the link:
 
 And we make sure it gets processed down to:
 
-- https://www.facebook.com/alaska.dhss/posts/10158906939714929?comment_id=10158907457684929
+- https://www.facebook.com/alaska.dhss/posts/10158906939714929?comment_id=10158907457684929&reply_comment_id=10158909556429929
 
 And now all of the links to comments in our database are standardized like this.
 
@@ -117,7 +117,7 @@ For example, sometimes a misinformation comment is just a link (usually to a non
 
 <br>
 
-If you copy and past this link:
+If you copy and paste this link:
 
 - https://www.infowars.com/.../seniors-who-already-beat.../
 
@@ -131,7 +131,7 @@ This is obviously even worse garbage, so we make sure that whatever our users co
 
 - infowars.com
 
-So now we have better data in our database, less garbage, and processing will be smoother later in the machine learning pipeline. 
+So now we have better data in our database, less garbage, and processing will be smoother later in the machine learning pipeline. It's not important to get the full link, because it's junk anyways, so just parsing down to the source is good enough. Now we can easily query our database to see what are the sources found in misinfo comments.
 
 
 
