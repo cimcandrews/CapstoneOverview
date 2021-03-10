@@ -145,8 +145,21 @@ So now we have better data in our database, less garbage, and processing will be
 ![Image](https://raw.githubusercontent.com/cimcandrews/CapstoneOverview/gh-pages/assets/freqbigrams1.png)
 <br>
 
+- Another example: it's easier to look at comments per day over a specific time period:
 
+![Image](https://raw.githubusercontent.com/cimcandrews/CapstoneOverview/gh-pages/assets/comments_per_day3.png)
+<br>
 
+![Image](https://raw.githubusercontent.com/cimcandrews/CapstoneOverview/gh-pages/assets/comments_per_day4.png)
+<br>
+
+# - Added an optional "notes" field for submitting comments, to help with communication between the monitors and the responders
+
+![Image](https://raw.githubusercontent.com/cimcandrews/CapstoneOverview/gh-pages/assets/submitcomment1.png)
+<br>
+
+![Image](https://raw.githubusercontent.com/cimcandrews/CapstoneOverview/gh-pages/assets/submitcomment2.png)
+<br>
 
 
 
