@@ -153,7 +153,9 @@ So now we have better data in our database, less garbage, and processing will be
 ![Image](https://raw.githubusercontent.com/cimcandrews/CapstoneOverview/gh-pages/assets/comments_per_day4.png)
 <br>
 
-# - Added an optional "notes" field for submitting comments, to help with communication between the monitors and the responders
+# - Notification System
+
+- Added an optional "notes" field for submitting comments, to help with communication between the monitors and the responders
 
 ![Image](https://raw.githubusercontent.com/cimcandrews/CapstoneOverview/gh-pages/assets/submitcomment1.png)
 <br>
@@ -161,7 +163,9 @@ So now we have better data in our database, less garbage, and processing will be
 ![Image](https://raw.githubusercontent.com/cimcandrews/CapstoneOverview/gh-pages/assets/submitcomment2.png)
 <br>
 
-# - Reminder: There's a bonus tool! You can select "View All Misinformation Comments" and then you can ctrl+F to search all of the comments for any keywords. It's also a great way to help quickly find an old comment, or if you need to locate a similar/duplicate comment that has almost the same wording. This way, you won't have to search through your browser history or scroll through lots of pages.
+# - Reminder: There's a bonus tool!
+
+- You can select "View All Misinformation Comments" and then you can ctrl+F to search all of the comments for any keywords. It's also a great way to help quickly find an old comment, or if you need to locate a similar/duplicate comment that has almost the same wording. This way, you won't have to search through your browser history or scroll through lots of pages.
 
 ![Image](https://raw.githubusercontent.com/cimcandrews/CapstoneOverview/gh-pages/assets/bonustool.png)
 <br>
