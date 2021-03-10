@@ -4,17 +4,17 @@ layout: default
 
 <p align="center">
 
-## Welcome to our Capstone Project
+<b>Welcome to our Capstone Project</b>
 
 <img src="https://web.archive.org/web/20091022142240if_/http://geocities.com/chibimoonshrine/space2.gif"><br>
 
-<img src="https://web.archive.org/web/20090903005151/http://geocities.com/thetropics/shores/4621/family/Christina/ray-lava.gif">     Ty Bergstrom     <img src="https://web.archive.org/web/20090903005151/http://geocities.com/thetropics/shores/4621/family/Christina/ray-lava.gif">
+<img src="https://web.archive.org/web/20090903005151/http://geocities.com/thetropics/shores/4621/family/Christina/ray-lava.gif">     Ty Bergstrom     <img src="https://web.archive.org/web/20090903005151/http://geocities.com/thetropics/shores/4621/family/Christina/ray-lava.gif"><br>
 
-<img src="https://web.archive.org/web/20091022181924/http://www.geocities.com/wordbuilder1/pix/lava-lamp.gif">     Ian McAndrews     <img src="https://web.archive.org/web/20091022181924/http://www.geocities.com/wordbuilder1/pix/lava-lamp.gif">
+<img src="https://web.archive.org/web/20091022181924/http://www.geocities.com/wordbuilder1/pix/lava-lamp.gif">     Ian McAndrews     <img src="https://web.archive.org/web/20091022181924/http://www.geocities.com/wordbuilder1/pix/lava-lamp.gif"><br>
 
-<img src="https://web.archive.org/web/20061101143146/http://www.geocities.com/nthbulldogclub/images/BlueStars.gif">
+<img src="https://web.archive.org/web/20061101143146/http://www.geocities.com/nthbulldogclub/images/BlueStars.gif"><br>
 
-</p>
+</p><br>
 
 ---
 
