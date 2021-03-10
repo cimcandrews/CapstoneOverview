@@ -133,6 +133,18 @@ This is obviously even worse garbage, so we make sure that whatever our users co
 
 So now we have better data in our database, less garbage, and processing will be smoother later in the machine learning pipeline. It's not important to get the full link, because it's junk anyways, so just parsing down to the source is good enough. Now we can easily query our database to see what are the sources found in misinfo comments.
 
+# - Always doing more work on the ML tools and data visuals
+
+- Adding more functionality, such as selecting date ranges.
+
+- More work on bigrams and phrases:
+
+![Image](https://raw.githubusercontent.com/cimcandrews/CapstoneOverview/gh-pages/assets/freqbigrams0.png)
+<br>
+
+![Image](https://raw.githubusercontent.com/cimcandrews/CapstoneOverview/gh-pages/assets/freqbigrams1.png)
+<br>
+
 
 
 
