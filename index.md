@@ -4,7 +4,7 @@ layout: default
 
 <p align="center">
 
-<b>Welcome to our Capstone Project</b>
+<h2>Welcome to our Capstone Project</h2>
 
 <img src="https://web.archive.org/web/20091022142240if_/http://geocities.com/chibimoonshrine/space2.gif"><br>
 
@@ -12,7 +12,7 @@ layout: default
 
 <img src="https://web.archive.org/web/20091022181924/http://www.geocities.com/wordbuilder1/pix/lava-lamp.gif">     Ian McAndrews     <img src="https://web.archive.org/web/20091022181924/http://www.geocities.com/wordbuilder1/pix/lava-lamp.gif"><br>
 
-<img src="https://web.archive.org/web/20061101143146/http://www.geocities.com/nthbulldogclub/images/BlueStars.gif"><br>
+<img src="https://web.archive.org/web/20090829204106/http://www.geocities.com/alanis_river/Animations/sparkle.gif"><br>
 
 </p><br>
 
@@ -63,31 +63,25 @@ They were featured in the Anchorage Daily News.
 
 ### Week of Tuesday March 16 and Thursday March 18 project update status report
 
-- TBA...
+# - Tracking sentiment analysis - for comments containing a keyword or phrase
 
-- TBA...
-
-- TBA...
-
-# - Tracking sentiment analysis - for comments containing a keyword
-
-For example, to help understand 'what is the +/- sentiment towards vaccines or masks in the misinfo comments'
+For example, to help understand the +/- sentiment towards 'vaccines' or 'masks' in the misinfo comments
 
 ![Image](https://raw.githubusercontent.com/cimcandrews/CapstoneOverview/gh-pages/assets/trackwordsent0.png)
-
 <br>
 
 ![Image](https://raw.githubusercontent.com/cimcandrews/CapstoneOverview/gh-pages/assets/trackwordsent4.png)
-
 <br>
 
 ![Image](https://raw.githubusercontent.com/cimcandrews/CapstoneOverview/gh-pages/assets/trackwordsent2.png)
 
-... We already know there are lots of negative comments overall, but it looks like there is more negativity concentrated in comments containing the word "flu" ... it seems like this might be informative...
+*We already know there are lots of negative comments overall, but it looks like there is more negativity concentrated in comments containing the word "flu" ... it seems like this might be informative...*
 
 <br>
 
 ![Image](https://raw.githubusercontent.com/cimcandrews/CapstoneOverview/gh-pages/assets/trackwordsent3.png)
+
+*Above is the form for selecting the word or phrase over a time period.*
 
 <br>
 
@@ -96,6 +90,8 @@ For example, to help understand 'what is the +/- sentiment towards vaccines or m
 Did some more work on processing input.
 
 ![Image](https://raw.githubusercontent.com/cimcandrews/CapstoneOverview/gh-pages/assets/submitcomment.png)
+
+*Above is the form for adding old comments to the database without sending an automatic notification to the response team.*
 
 <br>
 
@@ -135,11 +131,11 @@ Additionally, if you copy this link directly from facebook, you get this:
 
 - https://l.facebook.com/l.php?u=https%3A%2F%2Fwww.infowars.com%2Fposts%2Fseniors-who-already-beat-covid-19-are-dying-after-taking-the-vaccine%2F%3Ffbclid%3DIwAR3EPFP8hBwSbg4K0MrH-WIhh3DGMp4mcTvk8egsrMkNKtILKL6JXhfiXmY&h=AT3uDyp77_LFERjJlsedWCWOF8uCdGvQdOLzmEXgrXQaBh8P9VxZpejdXUXLCHpquqEyEpUexB2rHMDkfwpEzc6ewSNfaO2E0ZaP9GPyGu1BlbEMrIzszBa2cOvY&__tn__=R]-R&c[0]=AT3tBwZC2jtGnStLhYcdUhzVzvu_ryImz1q15CgpGYYbvt7rD5EGcAWDhbCXI6FAawI6lOuw9gNlLBMivhiEgTJPTU4cYZbYWMJTRhfqX1mxY8VaI6sahGyK3bplb-WaHaVz9V7meAYpmmFcV7Me8IKh-jc1HZ1rpez7I2cCqx_qmgDv
 
-This is obviously even worse garbage, so we make sure that whatever our users copy and paste and submit, we parse it all down to:
+This is even worse garbage, so we make sure that whatever our users copy and paste and submit, we parse it all down to:
 
 - infowars.com
 
-So now we have better data in our database, less garbage, and processing will be smoother later in the machine learning pipeline. It's not important to get the full link, because it's junk anyways, so just parsing down to the source is good enough. Now we can easily query our database to see what are the sources found in misinfo comments.
+So now we have better data in our database, less garbage, and processing will be smoother later in the machine learning pipeline. It's not important to get the full link, because it's junk anyways, so just parsing down to the source is good enough. Now we can easily query our database to see what are the sources are being cited in misinfo comments.
 
 # - Always doing more work on the ML tools and data visuals
 
@@ -163,13 +159,15 @@ So now we have better data in our database, less garbage, and processing will be
 
 # - Notification System
 
-- Added an optional "notes" field for submitting comments, to help with communication between the monitors and the responders
+- Added an optional "notes" field for submitting comments, to help with communication between the monitors and the responders. They mentioned that it helps to know, for example, if a new comment is just the same thing being posted on different pages.
 
 ![Image](https://raw.githubusercontent.com/cimcandrews/CapstoneOverview/gh-pages/assets/submitcomment1.png)
 <br>
 
 ![Image](https://raw.githubusercontent.com/cimcandrews/CapstoneOverview/gh-pages/assets/submitcomment2.png)
 <br>
+
+*By the way, we set up a misinfo classifier to make predictions on input comments, as seen above!*
 
 # - Reminder: There's a bonus tool!
 
