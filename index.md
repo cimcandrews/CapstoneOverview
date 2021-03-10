@@ -2,11 +2,17 @@
 layout: default
 ---
 
+<p align="center">
+
 ## Welcome to our Capstone Project
 
-Ty Bergstrom
+![Image](https://web.archive.org/web/20091022142240if_/http://geocities.com/chibimoonshrine/space2.gif) 
 
-Ian McAndrews
+![Image](https://web.archive.org/web/20090903005151/http://geocities.com/thetropics/shores/4621/family/Christina/ray-lava.gif)     Ty Bergstrom     ![Image](https://web.archive.org/web/20090903005151/http://geocities.com/thetropics/shores/4621/family/Christina/ray-lava.gif) 
+
+![Image](https://web.archive.org/web/20091022181924/http://www.geocities.com/wordbuilder1/pix/lava-lamp.gif)     Ian McAndrews     ![Image](https://web.archive.org/web/20091022181924/http://www.geocities.com/wordbuilder1/pix/lava-lamp.gif) 
+
+</p>
 
 ---
 
