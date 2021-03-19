@@ -54,6 +54,13 @@ They were featured in the Anchorage Daily News.
   - [ ] Migrate application to an external server for long-term deployment.
   - [ ] Test the application thoroughly.
 
+<br>
+
+---
+
+<br>
+
+## Weekly Status Reports:
 
 
 
@@ -63,10 +70,10 @@ They were featured in the Anchorage Daily News.
 
 - Testing.
 
-- Migrating project to a server for deployment.
+- Migrating project to a server, figuring out long-term deployment.
 
-- Prep for presentation website
-    - https://tjbergstrom.github.io/capstone_presentation/index.html
+- Prep for presentation website:
+    - [capstone_presentation](https://tjbergstrom.github.io/capstone_presentation/index.html)
 
 
 
