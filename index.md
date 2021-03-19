@@ -57,6 +57,23 @@ They were featured in the Anchorage Daily News.
 
 
 
+<br><br>
+
+### Week of Tuesday March 23 and Thursday March 25 project update status report
+
+- Testing.
+
+- Migrating project to a server for deployment.
+
+- Prep for presentation website
+    - https://tjbergstrom.github.io/capstone_presentation/index.html
+
+
+
+
+
+
+
 
 
 <br><br>
@@ -135,7 +152,7 @@ This is even worse garbage, so we make sure that whatever our users copy and pas
 
 - infowars.com
 
-So now we have better data in our database, less garbage, and processing will be smoother later in the machine learning pipeline. It's not important to get the full link, because it's junk anyways, so just parsing down to the source is good enough. Now we can easily query our database to see what are the sources are being cited in misinfo comments.
+So now we have better data in our database, less garbage, and processing will be smoother later in the machine learning pipeline. It's not important to get the full link, because it's junk anyways, so just parsing down to the source is good enough. Now we can easily query our database to see what sources are being cited in misinfo comments.
 
 # - Always doing more work on the ML tools and data visuals
 
