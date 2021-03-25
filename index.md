@@ -75,6 +75,10 @@ They were featured in the Anchorage Daily News.
 - Prep for presentation website:
     - [capstone_presentation](https://tjbergstrom.github.io/capstone_presentation/index.html)
 
+- Tried out another visual, listing out the unique posts, with the number of comments per post.
+
+![Image](https://raw.githubusercontent.com/cimcandrews/CapstoneOverview/gh-pages/assets/12a.png)
+<br>
 
 
 
