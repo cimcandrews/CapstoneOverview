@@ -5,13 +5,14 @@
 <h2>Welcome to our Capstone Project</h2>
 
 Ty Bergstrom
+
 Ian McAndrews
 
 <br>
 
 ---
 
-## Overview
+# Overview
 
 Our proposed project is to provide a solution to help automate monitoring health misinformation in social media, and to help provide tools to process and understand the misinformation data and the responses to misinformation. We will work directly with the Journalism and Public Communications Department Chair and the Alaska Public Health Information Response Team to provide a solution to suit their needs.
 
@@ -39,18 +40,18 @@ They were featured in the Anchorage Daily News.
 
 
 
-## Test Plan:
+# Test Plan:
 
 - TBA...
 
 
 
 
-
+---
 
 <br>
 
-## Weekly Status Reports:
+# Weekly Status Reports:
 
 
 
@@ -79,9 +80,9 @@ They were featured in the Anchorage Daily News.
 
 <br><br>
 
-### Week of Tuesday March 16 and Thursday March 18 project update status report
+# Week of Tuesday March 16 and Thursday March 18 project update status report
 
-# - Tracking sentiment analysis - for comments containing a keyword or phrase
+### - Tracking sentiment analysis - for comments containing a keyword or phrase
 
 For example, to help understand the +/- sentiment towards 'vaccines' or 'masks' in the misinfo comments
 
@@ -103,7 +104,7 @@ For example, to help understand the +/- sentiment towards 'vaccines' or 'masks' 
 
 <br>
 
-# - Text processing
+### - Text processing
 
 Did some more work on processing input.
 
@@ -155,7 +156,7 @@ This is even worse garbage, so we make sure that whatever our users copy and pas
 
 So now we have better data in our database, less garbage, and processing will be smoother later in the machine learning pipeline. It's not important to get the full link, because it's junk anyways, so just parsing down to the source is good enough. Now we can easily query our database to see what sources are being cited in misinfo comments.
 
-# - Always doing more work on the ML tools and data visuals
+### - Always doing more work on the ML tools and data visuals
 
 - Adding more functionality, such as selecting date ranges.
 
@@ -175,7 +176,7 @@ So now we have better data in our database, less garbage, and processing will be
 ![Image](https://raw.githubusercontent.com/cimcandrews/CapstoneOverview/gh-pages/assets/comments_per_day4.png)
 <br>
 
-# - Notification System
+### - Notification System
 
 - Added an optional "notes" field for submitting comments, to help with communication between the monitors and the responders. They mentioned that it helps to know, for example, if a new comment is just the same thing being posted on different pages.
 
@@ -187,7 +188,7 @@ So now we have better data in our database, less garbage, and processing will be
 
 *By the way, we set up a misinfo classifier to make predictions on input comments, as seen above!*
 
-# - Reminder: There's a bonus tool!
+### - Reminder: There's a bonus tool!
 
 - You can select "View All Misinformation Comments" and then you can ctrl+F to search all of the comments for any keywords. It's also a great way to help quickly find an old comment, or if you need to locate a similar/duplicate comment that has almost the same wording. This way, you won't have to search through your browser history or scroll through lots of pages.
 
@@ -203,7 +204,7 @@ So now we have better data in our database, less garbage, and processing will be
 
 <br><br>
 
-### Tues. March 2 and Thurs. March 4 project update status report.
+# Tues. March 2 and Thurs. March 4 project update status report.
 
 - Started collecting new data.
 
@@ -215,7 +216,7 @@ So now we have better data in our database, less garbage, and processing will be
 
 - Still working on other ML and NLP projects and other data visualizations.
 
-# - Sentiment analysis!!
+### - Sentiment analysis!!
 
 ![Image](https://raw.githubusercontent.com/cimcandrews/CapstoneOverview/gh-pages/assets/sa0.png)
 
@@ -225,13 +226,13 @@ So now we have better data in our database, less garbage, and processing will be
 
 <br>
 
-# - Still working on extracting bigrams and longer phrases
+### - Still working on extracting bigrams and longer phrases
 
 ![Image](https://raw.githubusercontent.com/cimcandrews/CapstoneOverview/gh-pages/assets/bg.png)
 
 <br>
 
-# - Tracking word usage!!
+### - Tracking word usage!!
 
 ![Image](https://raw.githubusercontent.com/cimcandrews/CapstoneOverview/gh-pages/assets/trackwords0.png)
 
@@ -259,14 +260,14 @@ So now we have better data in our database, less garbage, and processing will be
 
 <br><br>
 
-### Tues. Feb. 23 and Thurs. Feb. 25 project update status report.
+# Tues. Feb. 23 and Thurs. Feb. 25 project update status report.
 
 
 - Most of the data has been collected!
 
 - Still working on misinfo classifiers! Likely will need to augment the dataset with other datasets.
 
-# - Setting up the data visualizations with the application!!
+### - Setting up the data visualizations with the application!!
 
 <br>
 
@@ -274,7 +275,7 @@ So now we have better data in our database, less garbage, and processing will be
 
 <br>
 
-# - Setting up data visualiziations for selected date ranges!!
+### - Setting up data visualiziations for selected date ranges!!
 
 <br>
 
@@ -286,7 +287,7 @@ So now we have better data in our database, less garbage, and processing will be
 
 <br>
 
-# - Setting up trending topics visualizations with Latent Dirichlet Allocation models!!
+### - Setting up trending topics visualizations with Latent Dirichlet Allocation models!!
 
 <br>
 
@@ -298,7 +299,7 @@ So now we have better data in our database, less garbage, and processing will be
 
 <br>
 
-# - Also thinking of other visualizations, such as most frequent words:
+### - Also thinking of other visualizations, such as most frequent words:
 
 <br>
 
@@ -310,7 +311,7 @@ So now we have better data in our database, less garbage, and processing will be
 
 <br>
 
-# - Also providing other analysis, such as looking at the number of misinfo comments and responses per day:
+### - Also providing other analysis, such as looking at the number of misinfo comments and responses per day:
 
 <br>
 
@@ -328,7 +329,7 @@ So now we have better data in our database, less garbage, and processing will be
 
 <br><br>
 
-### Tues. Feb. 16 and Thurs. Feb. 18 project update status report.
+# Tues. Feb. 16 and Thurs. Feb. 18 project update status report.
 
 Still working on the app, updating it, and testing it.
 
@@ -381,7 +382,7 @@ We will be very busy collecting data, processing data, building models, generati
 
 <br><br>
 
-### Tues. Feb. 9 and Thurs. Feb. 11 project update status report.
+# Tues. Feb. 9 and Thurs. Feb. 11 project update status report.
 
 Updates to the app include:
 
@@ -463,7 +464,7 @@ Up next:
 
 <br><br>
 
-### Thursday February 4, 2021 project update status report.
+# Thursday February 4, 2021 project update status report.
 
 We have built a web app:
 
