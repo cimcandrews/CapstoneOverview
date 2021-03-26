@@ -4,12 +4,18 @@
 
 ## Welcome to our Capstone Project
 
+### University of Alaska Anchorage
+
+### CSCE A470 Senior Capstone, Spring 2021
+
 Ty Bergstrom
 
 Ian McAndrews
 
 <br>
+
 ---
+
 <br>
 
 # Overview
@@ -24,13 +30,15 @@ Additionally, we are considering using Machine Learning and Natural Language Pro
 
 ### Read about the Information Response Team here!
 
-They were featured in the Anchorage Daily News.
+They were recently featured in the Anchorage Daily News.
 
 [https://www.adn.com/alaska-news/2021/02/10/alaska-public-health-experts-are-taking-the-fight-against-covid-19-misinformation-to-facebook-comment-threads/](https://www.adn.com/alaska-news/2021/02/10/alaska-public-health-experts-are-taking-the-fight-against-covid-19-misinformation-to-facebook-comment-threads/)
 
 
 <br>
+
 ---
+
 <br>
 
 # Test Plan:
@@ -39,7 +47,9 @@ They were featured in the Anchorage Daily News.
 
 
 <br>
+
 ---
+
 <br>
 
 # Weekly Status Reports:
@@ -195,7 +205,7 @@ So now we have better data in our database, less garbage, and processing will be
 
 <br><br>
 
-# Tues. March 2 and Thurs. March 4 project update status report.
+# Week of Tuesday March 2 and Thursday March 4 project update status report
 
 - Started collecting new data.
 
@@ -251,7 +261,7 @@ So now we have better data in our database, less garbage, and processing will be
 
 <br><br>
 
-# Tues. Feb. 23 and Thurs. Feb. 25 project update status report.
+# Week of Tuesday Feb 23 and Thursday Feb 25 project update status report
 
 
 - Most of the data has been collected!
@@ -320,7 +330,7 @@ So now we have better data in our database, less garbage, and processing will be
 
 <br><br>
 
-# Tues. Feb. 16 and Thurs. Feb. 18 project update status report.
+# Week of Tuesday Feb 16 and Thursday Feb 18 project update status report
 
 Still working on the app, updating it, and testing it.
 
@@ -373,7 +383,7 @@ We will be very busy collecting data, processing data, building models, generati
 
 <br><br>
 
-# Tues. Feb. 9 and Thurs. Feb. 11 project update status report.
+# Week of Tuesday Feb 9 and Thursday Feb 11 project update status report
 
 Updates to the app include:
 
@@ -455,7 +465,7 @@ Up next:
 
 <br><br>
 
-# Thursday February 4, 2021 project update status report.
+# Week of Tuesday Feb 2 and Thursday Feb 4 project update status report
 
 - We have built a web app
 
