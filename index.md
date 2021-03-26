@@ -1,20 +1,13 @@
----
-layout: default
----
 
-<p align="center">
+
+
 
 <h2>Welcome to our Capstone Project</h2>
 
-<img src="https://web.archive.org/web/20091022142240if_/http://geocities.com/chibimoonshrine/space2.gif"><br>
+Ty Bergstrom
+Ian McAndrews
 
-<img src="https://web.archive.org/web/20090903005151/http://geocities.com/thetropics/shores/4621/family/Christina/ray-lava.gif">     Ty Bergstrom     <img src="https://web.archive.org/web/20090903005151/http://geocities.com/thetropics/shores/4621/family/Christina/ray-lava.gif"><br>
-
-<img src="https://web.archive.org/web/20091022181924/http://www.geocities.com/wordbuilder1/pix/lava-lamp.gif">     Ian McAndrews     <img src="https://web.archive.org/web/20091022181924/http://www.geocities.com/wordbuilder1/pix/lava-lamp.gif"><br>
-
-<img src="https://web.archive.org/web/20090829204106/http://www.geocities.com/alanis_river/Animations/sparkle.gif"><br>
-
-</p><br>
+<br>
 
 ---
 
@@ -28,35 +21,32 @@ We are considering developing a web application to help make the monitoring, not
 
 Additionally, we are considering using Machine Learning and Natural Language Processing to help automate certain tasks and to help analyze the misinformation and to help inform the team what makes a good response. We are considering using the web application for processing and presenting data, including WordClouds, diagrams, and other visualizations. 
 
-## Read about the Information Response Team here!
+### Read about the Information Response Team here!
 
 They were featured in the Anchorage Daily News.
 
 [https://www.adn.com/alaska-news/2021/02/10/alaska-public-health-experts-are-taking-the-fight-against-covid-19-misinformation-to-facebook-comment-threads/](https://www.adn.com/alaska-news/2021/02/10/alaska-public-health-experts-are-taking-the-fight-against-covid-19-misinformation-to-facebook-comment-threads/)
 
-## Basic To-Do
 
-  - [x] Research Facebook Graph API for scraping comments from pages.
-  - [x] Research Facebook terms of service and policies for their data.
-  - [x] Abandon all ideas of scraping anything from Facebook.
-  - [x] Develop an app with basic user functionality.
-  - [x] Create a simple website for Capstone class progress reports and presentations (this page).
-  - [ ] Create a separate page for the final "poster" presentation.
-
-## Advanced To-Do
-
-  - [x] Implement a system to submit misinfo comments and notify the Response Team.
-  - [ ] Collect data (the misinfo comments and responses).
-  - [ ] Create data visualizations of the misinfo data.
-  - [ ] Do Machine Learning and Natural Language Processing projects to help understand the misinfo.
-  - [ ] Integrate the ML projects into the app - use the app as an interface for the ML tools and visualizations.
-  - [ ] Implement a model to predict how likely a comment is misinfo or not - a misinfo classifier.
-  - [ ] Migrate application to an external server for long-term deployment.
-  - [ ] Test the application thoroughly.
 
 <br>
 
 ---
+
+<br>
+
+
+
+
+
+## Test Plan:
+
+- TBA...
+
+
+
+
+
 
 <br>
 
@@ -510,3 +500,24 @@ We are thinking of training models to:
 We are still discussing with the team what would work best for them. They also have not decided exactly which pages they are going to monitor. We are beginning to collect data. For data collection, we will be manually collecting lots of samples of misinfo comments from FB and Twitter. We will also collect their responses that they have already made, which are available on some of the FB pages. 
 
 For now it looks like we will not be automatically scraping for new comments, as this is against FB terms of service. The health information response team understands this and was not surprised, so we will most likely not pursue this.
+
+
+## Basic To-Do
+
+  - [x] Research Facebook Graph API for scraping comments from pages.
+  - [x] Research Facebook terms of service and policies for their data.
+  - [x] Abandon all ideas of scraping anything from Facebook.
+  - [x] Develop an app with basic user functionality.
+  - [x] Create a simple website for Capstone class progress reports and presentations (this page).
+  - [ ] Create a separate page for the final "poster" presentation.
+
+## Advanced To-Do
+
+  - [x] Implement a system to submit misinfo comments and notify the Response Team.
+  - [ ] Collect data (the misinfo comments and responses).
+  - [ ] Create data visualizations of the misinfo data.
+  - [ ] Do Machine Learning and Natural Language Processing projects to help understand the misinfo.
+  - [ ] Integrate the ML projects into the app - use the app as an interface for the ML tools and visualizations.
+  - [ ] Implement a model to predict how likely a comment is misinfo or not - a misinfo classifier.
+  - [ ] Migrate application to an external server for long-term deployment.
+  - [ ] Test the application thoroughly.
