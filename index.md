@@ -2,15 +2,15 @@
 
 
 
-<h2>Welcome to our Capstone Project</h2>
+## Welcome to our Capstone Project
 
 Ty Bergstrom
 
 Ian McAndrews
 
 <br>
-
 ---
+<br>
 
 # Overview
 
@@ -29,26 +29,17 @@ They were featured in the Anchorage Daily News.
 [https://www.adn.com/alaska-news/2021/02/10/alaska-public-health-experts-are-taking-the-fight-against-covid-19-misinformation-to-facebook-comment-threads/](https://www.adn.com/alaska-news/2021/02/10/alaska-public-health-experts-are-taking-the-fight-against-covid-19-misinformation-to-facebook-comment-threads/)
 
 
-
 <br>
-
 ---
-
 <br>
-
-
-
-
 
 # Test Plan:
 
 - TBA...
 
 
-
-
+<br>
 ---
-
 <br>
 
 # Weekly Status Reports:
@@ -57,7 +48,7 @@ They were featured in the Anchorage Daily News.
 
 <br><br>
 
-### Week of Tuesday March 23 and Thursday March 25 project update status report
+# Week of Tuesday March 23 and Thursday March 25 project update status report
 
 - Testing.
 
@@ -466,23 +457,19 @@ Up next:
 
 # Thursday February 4, 2021 project update status report.
 
-We have built a web app:
+- We have built a web app
 
-![Image](https://blog.corp-site.envato.com/cdn-cgi/image/width=820,quality=85,format=auto/uploads/2020/03/giphy-5.gif)
+- Users are able to create accounts, log in, log out, etc.
 
-Users are able to create accounts, log in, log out, etc.
-
-![Image](https://media1.giphy.com/media/26uf9Q4RRbWl5DA88/giphy.gif)
-
-The users (the journalism students) who monitor FB pages for misinformation are able to submit new misinformation comments:
+- The users (the journalism students) who monitor FB pages for misinformation are able to submit new misinformation comments:
 
 ![Image](https://raw.githubusercontent.com/cimcandrews/CapstoneOverview/gh-pages/assets/mm0.png)
 
-The response team will get automatic email notifications when a new comment is submitted, with the link to the comment included in the email:
+- The response team will get automatic email notifications when a new comment is submitted, with the link to the comment included in the email:
 
 ![Image](https://raw.githubusercontent.com/cimcandrews/CapstoneOverview/gh-pages/assets/mm1.png)
 
-Users are also able to view the newly submitted comments (with links). These new comments can be manually deleted after someone has responded to them, or they can be left for reference:
+- Users are also able to view the newly submitted comments (with links). These new comments can be manually deleted after someone has responded to them, or they can be left for reference:
 
 ![Image](https://raw.githubusercontent.com/cimcandrews/CapstoneOverview/gh-pages/assets/mm2.png)
 
@@ -522,3 +509,5 @@ For now it looks like we will not be automatically scraping for new comments, as
   - [ ] Implement a model to predict how likely a comment is misinfo or not - a misinfo classifier.
   - [ ] Migrate application to an external server for long-term deployment.
   - [ ] Test the application thoroughly.
+
+<br><br>
