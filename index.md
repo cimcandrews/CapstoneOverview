@@ -49,13 +49,13 @@ The following is the testing plan once we get the app up and running.
 
 The main functionality of the notification system is that:
 
-    - Users need to be able to submit new misinformation comments.
+- Users need to be able to submit new misinformation comments.
 
-    - Users need to be able to receive notifications for newly submitted comments, with the correct link in the notification to take them to the comment.
+- Users need to be able to receive notifications for newly submitted comments, with the correct link in the notification to take them to the comment.
 
-    - This needs to be functional at all times.
+- This needs to be functional at all times.
 
-    - We need to so how this system responds when there are multiple users submitting comments and receiving notifications throughout the day.
+- We need to see how this system responds when there are multiple users submitting comments and receiving notifications throughout the day.
 
 - Phase 1:
     - We will spend one week testing it ourselves.
