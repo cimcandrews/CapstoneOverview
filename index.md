@@ -45,10 +45,16 @@ They were recently featured in the Anchorage Daily News.
 
 Bottleneck: We need to migrate the app to a server and deploy it.
 
-The following is the testing plan once we get the app up and running
+The following is the testing plan once we get the app up and running.
+
+The main functionality of the notification system is that:
+    - Users need to be able to submit new misinformation comments.
+    - Users need to be able to receive notifications for newly submitted comments, with the correct link in the notification to take them to the comment.
+    - This needs to be functional at all times.
+    - We need to so how this system responds when there are multiple users submitting comments throughout the day.
 
 - Phase 1:
-    - We will spend one week testing it ourselfes.
+    - We will spend one week testing it ourselves.
         - Create a few user accounts with our own email addresses.
         - Test submitting misinformation comments several times a day.
         - Test receiving the email notifications for newly submitted comments.
