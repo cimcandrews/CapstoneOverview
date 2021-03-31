@@ -43,7 +43,21 @@ They were recently featured in the Anchorage Daily News.
 
 # Test Plan:
 
-- TBA...
+Bottleneck: We need to migrate the app to a server and deploy it.
+
+The following is the testing plan once we get the app up and running
+
+- Phase 1:
+    - We will spend one week testing it ourselfes.
+        - Create a few user accounts with our own email addresses.
+        - Test submitting misinformation comments several times a day.
+        - Test receiving the email notifications for newly submitted comments.
+- Pahse 2:
+    - We will give access to the response team and let the use it for one week.
+        - They will be able to directly ask us questions, give feedback, request changes.
+        - There will be a feedback form that we can use to make improvements.
+- Phase 3:
+    - Another round of testing depending on the scope of changes at this point.
 
 
 <br>
